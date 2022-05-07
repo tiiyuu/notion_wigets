@@ -1,4 +1,7 @@
-# Music player widget
+# Notion widgets
 
-A music player widget on [Notion](https://notion.so).
+Nice widgets on [Notion](https://notion.so).
+
+## Music player
+
 
