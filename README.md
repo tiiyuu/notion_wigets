@@ -1,6 +1,6 @@
 # Notion widgets
 
-Nice widgets on [Notion](https://notion.so).
+Nice widgets for [Notion](https://notion.so).
 
 👉 https://tiiyuu.github.io/notion_wigets/
 
