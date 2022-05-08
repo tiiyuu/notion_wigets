@@ -2,6 +2,7 @@
 
 Nice widgets on [Notion](https://notion.so).
 
-## Music player
+👉 https://tiiyuu.github.io/notion_wigets/
 
-Made by [himalaya singh](https://codepen.io/himalayasingh/pen/QZKqOX)
+## List
+1. Music player from [himalaya singh](https://codepen.io/himalayasingh/pen/QZKqOX)
