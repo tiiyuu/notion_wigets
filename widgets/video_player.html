@@ -1,0 +1,53 @@
+<html>
+
+<head>
+<!-- plyr -->
+<link rel="stylesheet" href="https://unpkg.com/plyr@3/dist/plyr.css">
+<!-- font: Gordita -->
+<link href="http://fonts.cdnfonts.com/css/gordita" rel="stylesheet">
+<style>
+/* css */
+body {
+    font-family: Gordita,Avenir,Helvetica Neue,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.container {
+	margin: 50px auto;
+	max-width: 500px;
+}
+</style>
+</head>
+
+<body>
+<!-- html -->
+    <div class="container">
+        <video controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
+             <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" size="576">
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4" size="720">
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type="video/mp4" size="1080">
+    
+                <!-- Caption files -->
+                <track kind="captions" label="English" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+                        default>
+                <track kind="captions" label="Français" srclang="fr" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
+                <!-- Fallback for browsers that don't support the <video> element -->
+                <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
+        </video>
+    </div>
+    <!-- Plyr resources and browser polyfills are specified in the pen settings -->
+
+<script type="text/javascript"src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- <script src="https://cdn.plyr.io/3.7.2/plyr.js"></script> -->
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL"></script>
+<script src="https://unpkg.com/plyr@3"></script>
+<script>
+// js code
+// Change the second argument to your options:
+// https://github.com/sampotts/plyr/#options
+const player = new Plyr('video', {captions: {active: true}});
+
+// Expose player so it can be used from the console
+window.player = player;
+
+</script>
+</body>
+</html>
