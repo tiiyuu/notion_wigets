@@ -12,8 +12,6 @@ Copy widget URL, then paste it into your notion and select `Create embed`
 
 ## All widgets
 
-### Music player
+1. [Music player](https://tiiyuu.github.io/notion_wigets/widgets/music_player.html) from [himalaya singh](https://github.com/himalayasingh/music-player-1)
 
 <img src="https://github.com/tiiyuu/notion_wigets/blob/main/assets/img/cover/music_player.png" alt="music payer"/>
-
-1. [Music player](https://tiiyuu.github.io/notion_wigets/widgets/music_player.html) from [himalaya singh](https://github.com/himalayasingh/music-player-1)
