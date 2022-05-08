@@ -6,7 +6,7 @@ Nice widgets for [Notion](https://notion.so).
 
 ## How to use
 
-Copy the widget URL, then paste it into your notion and select `Create embed`
+Copy widget URL, then paste it into your notion and select `Create embed`
 
 <img src="https://github.com/tiiyuu/notion_wigets/blob/main/assets/img/how_to_use.png" alt="how_to_use">
 
