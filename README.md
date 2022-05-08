@@ -2,7 +2,7 @@
 
 Nice widgets for [Notion](https://notion.so).
 
-<!-- 👉 https://tiiyuu.github.io/notion_wigets/ -->
+👉 https://tiiyuu.github.io/notion_wigets/
 
 ## How to use
 
